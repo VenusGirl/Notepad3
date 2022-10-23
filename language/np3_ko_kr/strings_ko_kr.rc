@@ -195,7 +195,7 @@ BEGIN
     IDS_MUI_RELOADCFGSEX     "다시 시작하지 않고 계속하면 저장된 설정이 적용되지 않으며 프로그램 종료시 내부 설정이 무시됩니다!"
     IDS_MUI_EXPORT_FAIL      "스타일 설정을 ""%s""으로 내보내는 중 오류가 발생하였습니다."
     IDS_MUI_REGEX_INVALID    "정규 표현식을 평가하는 동안 오류가 발생했습니다. 표현식이 잘못되었습니다!"
-    IDS_MUI_DROP_NO_FILE     "검색된 유효한 파일 이름이 없습니다. \n32 비트 응용 프로그램에서 드롭하는 경우 \nNotepad3의 도구 모음으로 끌어서 놓으십시오."
+    IDS_MUI_DROP_NO_FILE     "검색된 유효한 파일 이름이 없습니다. \n32비트 응용 프로그램에서 드롭하는 경우 \nNotepad3의 도구 모음으로 끌어서 놓으십시오."
     IDS_MUI_URL_DIR_EXISTS   "URL 지정 디렉터리가 있습니다!"
     IDS_MUI_URL_FILE_EXISTS  "URL 지정 파일이 있습니다!"
     IDS_MUI_URL_PATH_NOT_FOUND
@@ -222,7 +222,7 @@ BEGIN
     IDS_MUI_WARN_STYLE_RESET
                             "이 작업은 스타일을 원하는 색상 모드의 출고시 기본값으로 재설정하고 활성 테마 파일을 표준 config .ini로 전환합니다!"
     IDS_MUI_ASK_INSTANCE_EXISTS
-                            "Single File Instance Mode:\n\nSet focus on already loaded file instance?"
+                            "단일 파일 인스턴스 모드:\n\n이미 불러온 파일 인스턴스에 집중을 설정하시겠습니까?"
 END
 
 STRINGTABLE
@@ -265,7 +265,7 @@ BEGIN
     IDS_MUI_MENU_THEMES     "구성표 모음(&S)"
     IDM_THEMES_FACTORY_RESET "기본값(&F)"
     IDM_THEMES_STD_CFG       "표준 구성 (&S)"  // 앞에 공백을 유지(&S)
-    IDS_MUI_STATUSBAR_PREFIXES "줄  ,열  ,선택  ,블럭  ,줄선택  ,일치  ,,,,,,,글자  ,교체  ,유형  ,"
+    IDS_MUI_STATUSBAR_PREFIXES "줄  ,열  ,선택  ,블럭 선택  ,줄 선택  ,일치  ,,,,,,,글자  ,교체  ,평가  ,"
     IDS_MUI_STATUSBAR_POSTFIXES ",,,,,,,,,,,,,,,"
     IDS_CLEAR_ALL           "모두 지우기"
     IDS_MUI_CLEAR_FIND_HISTORY
